@@ -5,7 +5,7 @@ interface Config {
   token?: string;
   password?: string;
   defaultAgent?: string;
-  language?: 'zh-CN' | 'en';
+  language?: 'zh-TW' | 'en';
   aiName?: string;
   loginEnabled?: boolean;
   loginPassword?: string;
@@ -16,7 +16,7 @@ interface Config {
 const DEFAULT_CONFIG: Config = {
   gatewayUrl: 'ws://127.0.0.1:18789',
   defaultAgent: 'main',
-  language: 'zh-CN',
+  language: 'zh-TW',
   aiName: '我的小龍蝦',
   loginEnabled: false,
   loginPassword: '123456',
